@@ -97,11 +97,6 @@ a {
   @extend %btn-common;
 }
 
-.btn:hover,
-.btn-accent:hover {
-  background-color: $color-accent;
-}
-
 .about,
 .posts {
   @include lg-md {
