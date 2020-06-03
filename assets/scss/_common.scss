@@ -97,14 +97,3 @@ a {
   @extend %btn-common;
 }
 
-.about,
-.posts {
-  @include lg-md {
-    padding-top: $gap * 4;
-    padding-bottom: $gap * 4;
-  }
-  @include md {
-    padding-top: $gap * 3;
-    padding-bottom: $gap * 3;
-  }
-}

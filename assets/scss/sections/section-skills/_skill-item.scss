@@ -3,9 +3,12 @@
 
   overflow: hidden;
 
-  min-height: calc(33.33vh - 13.3px);
-
-  background-color: $color-primary;
+  @media (max-height: 690px) {
+    min-height: calc(230px - 13.3px);
+  }
+  @media (min-height: 691px) {
+    min-height: calc(33.33vh - 13.3px)
+  }
 
   &:hover {
     .skill-item__overlay {
