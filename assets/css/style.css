@@ -1390,4 +1390,8 @@ a {
   .about__content p:first-of-type::after {
     display: none;
   }
+  .posts__grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6";
+  }
 }

@@ -28,6 +28,10 @@
       grid-template-columns: 1fr 1fr;
       grid-template-areas: "p1 p2" "p3 p4" "p5 p6";
     }
+     @include sm {
+      grid-template-columns: 1fr;
+      grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6";
+    }
   }
 
   &__button {
